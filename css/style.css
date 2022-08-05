@@ -2,12 +2,11 @@
     Global Styles
    ======================== */
 
-header {
-
-}
-
 body {
-
+    background-color:#FFFFFF;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 14px;
 }
 
 
@@ -16,15 +15,16 @@ body {
    ======================== */
 
 .bold {
+    font-weight:bold;
 
 }
 
 .italic {
-
+    font-style:italic;
 }
 
 .highlight {
-
+    background-color:yellow;
 }
 
 
@@ -33,37 +33,39 @@ body {
    ======================== */
 
 h1 {
-
+    font-family:'Linux Libertine Narrow';
+    font-size:28.8px;
 }
 
 h2 {
-
+    font-family:'Linux Libertine Narrow';
+    font-size:21px;
 }
 
 h3 {
-
+    font-size:16.8px;
 }
 
 
 
 a {
-
+    color:#0645ad;
 }
 
 p {
-
+    color:#202122;
 }
 
 
 
 table {
-
+    background-color: #f8f9fa;
 }
 
 th {
-
+    background-color:#eaecf0;
+    color:#000000;
 }
 
 td {
-
 }
