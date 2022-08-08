@@ -42,9 +42,19 @@ h3 {
 }
 
 
+/* =======    Link Subclasses must stay in this order or they won't work      ======= */
 
-a {
+a:link {
     color:#0645ad;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#0b0080;
+}
+
+a:hover{
+   text-decoration: underline;
 }
 
 p {
@@ -67,7 +77,13 @@ td {
 }
 
 
-div {
+.header{
+    border-bottom:#202122;
+    border-width:0.5px;
+}
+
+
+.table {
     background-color:#f8f9fa;
     border-style:solid;
     border-width:0.5px;
