@@ -4,19 +4,17 @@
 
 body {
     background-color:#FFFFFF;
-    color: #000000;
-    font-family: sans-serif;
-    font-size: 14px;
+    color:#000000;
+    font-family:sans-serif;
+    font-size:14px;
 }
 
-
 /* ========================
-    Text Modifier Classes
+    Content
    ======================== */
 
 .bold {
     font-weight:bold;
-
 }
 
 .italic {
@@ -28,9 +26,6 @@ body {
 }
 
 
-/* ========================
-    Content
-   ======================== */
 
 h1 {
     font-family:'Linux Libertine Narrow';
@@ -59,7 +54,7 @@ p {
 
 
 table {
-    background-color: #f8f9fa;
+    background-color:#f8f9fa;
 }
 
 th {
@@ -68,4 +63,15 @@ th {
 }
 
 td {
+
+}
+
+
+div {
+    background-color:#f8f9fa;
+    border-style:solid;
+    border-width:0.5px;
+    border-color:#202122;
+    width:240px;
+    padding-left:10px;
 }
